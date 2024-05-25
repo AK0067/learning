@@ -1,16 +1,16 @@
 # learning vars in py
-age = 15
-name = "Aurea"
-print("Hi, I'm " + name + ", I'm about " + str(age) + " years old right now, as for what I'm doing, I'm learning Python :(");
+age =  # age here
+name = "" # name here
+print(f"Hi, I'm {name}, I'm about {age} years old right now, as for what I'm doing, I'm learning Python :(");
 # second type vars, the one above was very simple useage of vars, now let's experiment a bit ;)
-x = "who tf are u?" # this bro will get overwritten
+x = "who are u?" # this bro will get overwritten
 x = "who're you?" # this bro overwrites
-print("Now, " + x);
+print(f"Now, {x}");
 # float in the air /j
 y = str(1)
 z = int(2)
 a = float(3)
-print("So, do you like the number: " + y + str(z) + str(a) + "?")
+print(f"So, do you like the number: {y}{z}{a}?")
 # the types ah nah this ain't no ts
 print("Right now learnt these types of vars:")
 print(type(y))
